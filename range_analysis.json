@@ -1,0 +1,250 @@
+{
+  "tasks": {
+    "type": "Limited",
+    "unique_values": [
+      "agent",
+      "agentic workflows",
+      "code generation",
+      "code related tasks",
+      "coding",
+      "coding-focused",
+      "conversational",
+      "creative writing",
+      "function calling",
+      "function-calling tasks",
+      "image-to-text",
+      "instruction following",
+      "long-context question-answering",
+      "math & reasoning",
+      "mathematical",
+      "multilingual dialog use cases",
+      "question-answering",
+      "reasoning",
+      "reinforcement-learning",
+      "summarization",
+      "text-classification",
+      "text-generation",
+      "text-retrieval",
+      "text2text-generation",
+      "tool use",
+      "translation"
+    ],
+    "count": 26
+  },
+  "parameter_bucket": {
+    "type": "Limited",
+    "unique_values": [
+      "Large (13-70B)",
+      "Medium (3-13B)",
+      "Small (<3B)",
+      "Unknown",
+      "XLarge (>70B)"
+    ],
+    "count": 5
+  },
+  "parameter_count": {
+    "type": "Range",
+    "min": -1,
+    "max": 1000000000000
+  },
+  "context_window_bucket": {
+    "type": "Limited",
+    "unique_values": [
+      "Extended (8-32K)",
+      "Large (32-100K)",
+      "Standard (4-8K)",
+      "Unknown",
+      "Very Large (>100K)"
+    ],
+    "count": 5
+  },
+  "context_window": {
+    "type": "Range",
+    "min": -1,
+    "max": 1048576
+  },
+  "base_architecture_type": {
+    "type": "Limited",
+    "unique_values": [
+      "Decoder-only",
+      "Encoder-decoder",
+      "Mixture-of-Experts (MoE)"
+    ],
+    "count": 3
+  },
+  "knowledge_cutoff": {
+    "type": "Limited",
+    "unique_values": [
+      "09-2022",
+      "10-2025",
+      "12-2023",
+      "12-2024"
+    ],
+    "count": 4
+  },
+  "tool_usage": {
+    "type": "Limited",
+    "unique_values": [
+      "limited",
+      "no",
+      "yes"
+    ],
+    "count": 3
+  },
+  "language_support": {
+    "type": "Limited",
+    "unique_values": [
+      "100+ languages and dialects",
+      "Arabic",
+      "Chinese",
+      "Czech",
+      "Dutch",
+      "English",
+      "French",
+      "German",
+      "Hindi",
+      "Italian",
+      "Japanese",
+      "Korean",
+      "Latin",
+      "Polish",
+      "Portuguese",
+      "Russian",
+      "Spanish",
+      "Thai",
+      "Vietnamese",
+      "en",
+      "multiple languages",
+      "over 1000 languages",
+      "over 140 languages"
+    ],
+    "count": 23
+  },
+  "reasoning_level_bucket": {
+    "type": "Limited",
+    "unique_values": [
+      "Advanced",
+      "Basic",
+      "Expert",
+      "Intermediate",
+      "Unknown"
+    ],
+    "count": 5
+  },
+  "code_proficiency_bucket": {
+    "type": "Limited",
+    "unique_values": [
+      "Advanced",
+      "Basic",
+      "Expert",
+      "Intermediate",
+      "Unknown"
+    ],
+    "count": 5
+  },
+  "math_proficiency_bucket": {
+    "type": "Limited",
+    "unique_values": [
+      "Advanced",
+      "Basic",
+      "Expert",
+      "Intermediate",
+      "Unknown"
+    ],
+    "count": 5
+  },
+  "general_knowledge_bucket": {
+    "type": "Limited",
+    "unique_values": [
+      "Basic",
+      "Broad",
+      "Comprehensive",
+      "Limited",
+      "Unknown"
+    ],
+    "count": 5
+  },
+  "primary_focus": {
+    "type": "Limited",
+    "unique_values": [
+      "Agent",
+      "Assistant",
+      "Character AI",
+      "Chat",
+      "Code generation",
+      "Coding-focused",
+      "Content generation",
+      "Conversational",
+      "Creative",
+      "Creative writing",
+      "Domain-specific",
+      "Efficiency-optimized",
+      "Function calling",
+      "General purpose",
+      "Information retrieval",
+      "Instruction following",
+      "Math & reasoning",
+      "Multilingual",
+      "Multimodal",
+      "Problem solving",
+      "Question answering",
+      "Research-oriented",
+      "Role-playing",
+      "Scientific research",
+      "Summarization",
+      "Task-oriented",
+      "Tool use",
+      "coding-focused",
+      "math & reasoning"
+    ],
+    "count": 29
+  },
+  "domain_expertise": {
+    "type": "Limited",
+    "unique_values": [
+      "Code",
+      "Coding",
+      "Mathematics",
+      "Russian literature",
+      "Science"
+    ],
+    "count": 5
+  },
+  "content_generation": {
+    "type": "Limited",
+    "unique_values": [],
+    "count": 0
+  },
+  "language_count": {
+    "type": "Range",
+    "min": -1,
+    "max": 1811
+  },
+  "license": {
+    "type": "Limited",
+    "unique_values": [
+      "apache-2.0",
+      "custom commercial license",
+      "gemma",
+      "llama2",
+      "llama3",
+      "llama3.1",
+      "llama3.2",
+      "llama3.3",
+      "mit",
+      "modified-mit",
+      "other"
+    ],
+    "count": 11
+  },
+  "inference_provider": {
+    "type": "Limited",
+    "unique_values": [
+      "CPM.cu",
+      "Huggingface Transformers",
+      "SGLang",
+      "vLLM"
+    ],
+    "count": 4
+  }
+}
