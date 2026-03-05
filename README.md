@@ -1,8 +1,8 @@
-# ModelIQ – Model Selection & Recommendation Backend
+# Model Selection & Recommendation 
 
 ## Overview
 
-ModelIQ is a backend system that helps users select suitable AI/ML models based on their use case. It works by:
+This is backend system that helps users select suitable AI/ML models based on their use case. It works by:
 
 1. Accepting a natural language use case from the user
 2. Analyzing ambiguity using an LLM (Gemini)
